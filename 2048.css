@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #9999CC;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: lightgray;
+    border: 6px solid black;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #eee4da;
+    color: white;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: white;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: lightyellow;
+}
+
+.x16{
+    background-color: #f59575;
+    color: lightyellow;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: lightyellow;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: lightyellow;
+}
+
+.x128{
+    background-color: #CCFFCC;
+    color: gray;
+}
+
+.x256{
+    background-color: #CCFF99;
+    color: gray;
+}
+
+.x512{
+    background-color: #CCFF66;
+    color: gray;
+}
+
+.x1024{
+    background-color: #CCFF33;
+    color: gray;
+}
+
+.x2048{
+    background-color: #CCFF00;
+    color: gray;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: black;
+}
+
+.x8192 {
+    background-color: #ea481b;
+    color: black;
+}
